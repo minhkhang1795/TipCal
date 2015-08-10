@@ -20,7 +20,8 @@ Completed: 4/6
 + [x] Optional: Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 Video Walkthrough:
+
 ![alt tag](https://github.com/vuminhkhang1995/TipCal/blob/master/VideoWalkthrough.gif)
 
-Postscript: Sorry, I could not make it all because I am busy with another project in Cambodia! At the beginning, I did not expect to do it much because I only had time to work for only few hours at nights and, luckily, on Sunday. However, after coming to this stage, I feel contented with what I have built. When I come back to Vietnam, I will definitely try to finish the rest of the project! Finally, thank you a lot for giving me and others both <b>a great challenge</b> and <b>an amazing experience</b> to entangle in and disentangle from a new and robust programming language, <b>Swift</b>
+Postscript: Sorry, I could not make it all because I am now busy with another project in Cambodia! At the beginning, I did not expect to do it much because I only had time to work only few hours at nights and, luckily, on Sunday. However, after coming to this stage, I feel contented with what I have built. When I come back to Vietnam, I will definitely try to finish the rest of the project! Finally, thank you a lot for giving me and others both <b>a great challenge</b> and <b>an amazing experience</b> to entangle in and disentangle from a new and robust programming language, <b>Swift</b>
 
