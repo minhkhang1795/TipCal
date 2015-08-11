@@ -17,7 +17,7 @@ class SettingViewController: UIViewController {
         super.viewDidLoad()
         
         // Load tip default
-        if let tipDefaulIsNotNill = defaults.objectForKey("tipDefault") as? Int {
+        if (defaults.objectForKey("tipDefault") != nil) {
             tipDefaultControl.selectedSegmentIndex = defaults.objectForKey("tipDefault") as! Int
         }
     }
@@ -25,6 +25,7 @@ class SettingViewController: UIViewController {
     @IBAction func onPercentChanged(sender: AnyObject) {
         // Save tip default
         defaults.setInteger(tipDefaultControl.selectedSegmentIndex, forKey: "tipDefault")
+        defaults.synchronize()
     }
     
     override func didReceiveMemoryWarning() {
