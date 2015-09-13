@@ -92,9 +92,15 @@ class TipViewController: UIViewController {
         totalLabel.text = formatter.stringFromNumber(total)
         
     }
-    /* The keyboard is always visible. We do not need this any longer!
+    // The keyboard is always visible. We do not need this any longer!
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
-    }*/
+    }
+    
+    
+    // MARK: Navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        navigationItem.title = "Back"
+    }
 }
 
